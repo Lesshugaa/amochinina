@@ -117,7 +117,7 @@ Ya pasaron 30 días desde el día que nos hicimos noviecitos hermosos… pero no
 
 30 días de novios, pero… hace más de 4 meses que hablamos y, aunque ya te lo dije, te lo vuelvo a decir: no me arrepiento de absolutamente nada de lo que hice para poder estar con vos. Estar con vos, hacerte reír, es lo más lindo que tengo. Ver cómo te cagás de risa por las boludeces que digo me hace inmensamente feliz.
 
-También quiero pedirte perdón por no poder llenar siempre las expectativas que tenés, mi amor. Sé que no soy el mejor ni el más “apto” para vos, pero te prometo que cada día trato de ser un poquito mejor solo para ver una sonrisa en tu cara hermosa. También quiero pedirte perdón por no poder llenar siempre las expectativas que tenés, mi amor. Sé que no soy el mejor ni el más “apto” para vos, pero te prometo que cada día trato de ser un poquito mejor solo para ver una sonrisa en tu cara hermosa. Quiero que nunca me sueltes la mano, ni que te conformes, princesa, porque vos te merecés lo mejor del mundo y yo me voy a romper el alma para dártelo.
+También quiero pedirte perdón por no poder llenar siempre las expectativas que tenés, mi amor. Sé que no soy el mejor ni el más “apto” para vos, pero te prometo que cada día trato de ser un poquito mejor solo para ver una sonrisa en tu cara hermosa. Quiero que nunca me sueltes la mano, ni que te conformes, princesa, porque vos te merecés lo mejor del mundo y yo me voy a romper el alma para dártelo.
 
 Gracias por elegirme todos los días, por hacerme sentir tan amado, tan cuidado, tan especial. En un mundo tan de mierda, vos sos lo más lindo que existe… y lo tengo yo. Te juro que no existen palabras para describir lo mucho que te amo.
 
