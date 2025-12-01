@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Amochi ♡</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Portada del libro -->
+    <div class="book-cover" id="bookCover">
+        <div class="book-content">
+            <div class="book-title">Para mi Amochi ♡</div>
+            <div class="book-subtitle">Un mes de amor infinito</div>
+            <div class="open-instruction">✨ Toca para abrir tu regalo ✨</div>
+        </div>
+    </div>
+
+    <!-- Control de música de fondo -->
+    <div class="music-control" id="musicControl"></div>
+
+    <!-- Container principal -->
+    <div class="container">
+        <!-- Página 1: Bienvenida y contador -->
+        <div class="page active" data-page="1">
+            <div class="page-content">
+                <h1>¡Feliz primer mes, Amochi 💕</h1>
+                
+                <div class="counter-container">
+                    <div class="counter-title">Llevamos juntos...</div>
+                    <div class="counter" id="timeCounter"></div>
+                    <div class="subtitle-counter">Y 4 meses desde el primer "hola" ♡</div>
+                </div>
+
+                <p style="text-align: center; font-size: 1.2rem; line-height: 1.8; color: #333; margin-top: 30px;">
+                    Este regalo es especial, único y hecho con todo mi amor para ti. 
+                    Cada página tiene algo diferente que preparé pensando en hacerte sonreír 
+                    y recordarte lo hermosa que sos para mí.
+                </p>
+
+                <p style="text-align: center; font-size: 1.1rem; color: #ff69b4; margin-top: 20px; font-weight: 600;">
+                    ¡Navega con las flechas de abajo! 💖
+                </p>
+            </div>
+        </div>
+
+        <!-- Página 2: Carta de amor -->
+        <div class="page" data-page="2">
+            <div class="page-content">
+                <h1>Una cartita para mi Amochi...</h1>
+                <div class="letter-text" id="letterText"></div>
+                <div class="signature">Con todo mi amor, tu amochi nino ♡</div>
+            </div>
+        </div>
+
+        <!-- Página 3: Galería de fotos -->
+        <div class="page" data-page="3">
+            <div class="page-content">
+                <h1>Nuestros Momentitos 📸</h1>
+                <div class="photo-grid" id="photoGrid"></div>
+            </div>
+        </div>
+
+        <!-- Página 4: Ruleta de vales -->
+        <div class="page" data-page="4">
+            <div class="page-content">
+                <h1>Ruleta de Vales del Amor 🎡</h1>
+                <p style="text-align: center; font-size: 1.1rem; color: #666; margin-bottom: 20px;">
+                    Gira la ruleta y gana un vale que tu amochi tiene que cumplir
+                </p>
+                <div class="wheel-container">
+                    <div class="wheel" id="wheel">
+                        <div class="wheel-center">GIRAR</div>
+                    </div>
+                    <div class="vale-result" id="valeResult">¡Toca la ruleta para girar!</div>
+                </div>
+            </div>
+        </div>
+        <!-- Página 6: Mensaje de ella -->
+        <div class="page" data-page="5">
+            <div class="page-content">
+                <h1>Déjame un mensaje, Amochi 💌</h1>
+                <p style="text-align: center; font-size: 1.1rem; color: #666; margin-bottom: 30px;">
+                    Escribi lo que quieras decirme. Este mensaje quedará guardado 
+                    para siempre en este regalo digital ♡
+                </p>
+                <div class="message-box">
+                    <textarea id="messageTextarea" placeholder="Escribe aquí tu mensaje de amor..."></textarea>
+                    <button class="btn-save" onclick="saveMessage()">💕 Guardar para siempre</button>
+                    <div class="saved-message" id="savedMessage">
+                        ¡Mensaje guardado con amor! 💖
+                    </div>
+                </div>
+                
+                <div id="displayMessage" style="margin-top: 30px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navegación -->
+    <div class="navigation">
+        <button class="nav-btn" id="prevBtn" onclick="changePage(-1)">← Anterior</button>
+        <div class="page-indicator" id="pageIndicator">1/5</div>
+        <button class="nav-btn" id="nextBtn" onclick="changePage(1)">Siguiente →</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
